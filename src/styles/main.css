@@ -17,10 +17,12 @@
   display: flex;
   justify-content:space-between; 
 }
-#header .nav .nav_logo p {
+#header .nav .nav_logo li {
   font-weight: bold;
   font-size: 30px;
   color: blue;
+  list-style-image: url("/src/assets/images/Logo.png");
+  
 }
 #header .nav .nav_li {
   display: flex;
@@ -36,4 +38,28 @@
   font-size: 30px;
   color: rgba(48, 22, 117, 0.877);
   padding: 80px 95px;
+}
+#footer {
+  background-attachment: fixed;
+  padding-top: 12px;
+  padding-bottom: 60px;
+}
+#footer .title_footer {
+  color: black;
+  font-size: 25px;
+  padding: 17px 90px;
+  font-weight: bold;
+  list-style-image: url("/src/assets/images/Logo.png");
+  margin-top: 300px;
+}
+#footer .footer_li {
+  display: flex;
+ justify-content:space-between;
+  list-style: none;
+  margin-right: 110px;
+  margin-left: 600px;
+  color: rgba(0, 0, 0, 0.815);
+  position: relative;
+  top: 0;
+ 
 }
