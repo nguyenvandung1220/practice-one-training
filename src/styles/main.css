@@ -39,6 +39,20 @@
   color: rgba(48, 22, 117, 0.877);
   padding: 80px 95px;
 }
+#section {
+  padding: 17px 90px;
+  font-size: 30px;
+  color:rgb(21, 32, 39)
+}
+#section .section_button {
+  color: white;
+ background: blue;
+ background-color:blue;
+ margin-top: 50px;
+ border: 10px solid;
+ border-radius: 10%;
+ background: url("/src/assets/images/Device(2).png");
+}
 #footer {
   background-attachment: fixed;
   padding-top: 12px;
@@ -61,5 +75,9 @@
   color: rgba(0, 0, 0, 0.815);
   position: relative;
   top: 0;
- 
+}
+#footer .footer_li i{
+  list-style:armenian;
+  box-shadow: blue;
+
 }
