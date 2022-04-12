@@ -60,6 +60,13 @@ img {
   padding: 9px 366px 160px 153px;
   top: 68px;
 }
+#section .image_icon {
+  display: flex;
+}
+#section .image_icon .icon {
+  list-style: none;
+  align-items: center;
+}
 #footer {
   background-attachment: fixed;
   padding: 5px;
